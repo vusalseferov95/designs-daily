@@ -1,3 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.just-betw {
+    justify-content: space-between;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.gap22 {
+    gap: 22px;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+.color000 {
+    color: #000;
+}
+
 .darkblue {
     color: #202142;
 }
@@ -28,4 +60,8 @@
 
 .fw-700 {
     font-weight: 700;
+}
+
+.fw-1000 {
+    font-weight: 1000;
 }
