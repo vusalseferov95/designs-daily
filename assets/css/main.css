@@ -1,0 +1,236 @@
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    height: 1200px;
+    background: #EDEDF9;
+    background-color: #EDEDF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 1440px;
+    height: 1120px;
+    background-color: #FFF;
+    fill: #FFF;
+    filter: drop-shadow(0px 15px 45px rgba(24, 27, 121, 0.05));
+}
+
+.logo {
+    width: 140px;
+    height: 40px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.div1 {
+    width: 1440px;
+    height: 120px;
+    background-color: #FCFCFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+
+}
+
+.navbar {       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.btn-login {
+    width: 120 px;
+    height: 55px;
+    padding:  15px 30px;
+    border-radius: 10px;
+    background: transparent;
+    color: #202142;
+    border: none;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.btn-signup {
+    width: 120 px;
+    height: 55px;
+    padding:  15px 30px;
+    border-radius: 10px;
+    background-color: #202142;
+    color: #fff;
+    border: none;
+}
+
+.btn-signup:hover {
+    cursor: pointer;
+}
+
+.div2 {
+    width: 1440px;
+    height: 430px;
+    background-color: #FCFCFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    gap: 50px;
+}
+
+.text1 {
+    width: 340px;
+    height: 33px;
+    padding-top: 90px;
+}
+
+.text2 {
+    width: 580px;
+    height: 55px;
+    padding-top: 16px;
+}
+
+.select {
+    border: none;
+    background: transparent;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+.design-search {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 35px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.input-search {
+    height: 34px;
+    background: transparent;
+    border: none;
+}
+
+.input-search:hover {
+    background-color: aqua;
+}
+
+.div3 {
+    width: 1440px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.last-pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.btn-lastest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    padding: 15px 30px;
+    border-radius: 70px;
+    background: transparent;
+    border: none;
+}
+
+.btn-lastest:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.btn-popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    padding: 15px 30px;
+    border-radius: 70px;
+    background: transparent;
+    border: none;
+    opacity: 0.6;
+}
+
+.btn-popular:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.navbar2 {       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.div4 {
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn-61 {
+    width: 61px;
+    height: 61px;
+    border-radius: 61px;
+    border: none;
+}
+
+.btn-61:hover {
+    border: 1px solid #202142;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.download {
+    width: 425px;
+    height: 320px;
+    border-radius: 15px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.download:hover {
+    border: 1px solid darkorange;
+}
